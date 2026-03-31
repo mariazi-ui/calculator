@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #66CC99;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 6px 6px 6px rgba(54, 18, 36, 0.2);    
+}
+
+.digits {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.operations {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    font-size: large;
+    background-color: #66CC99;
+    color: #C9EDDB;
+    padding: 8px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(18, 54, 36, 0.3);
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: 2px 2px 2px rgba(18, 54, 36, 0.3) inset;
+    background-color: #40BF80;
+}
+
+#zero {
+    width: 155px;
+}
+
+#equals {
+    width: 100px;
+}
+
+.clear {
+    background-color: #CB6296;
+    box-shadow: 2px 2px 2px rgba(54, 18, 36, 0.3);
+}
+
+.clear:active {
+    background-color: #BF4080;
+    box-shadow: 2px 2px 2px rgba(54, 18, 36, 0.3) inset;    
+}
+
+.clear-entry {
+    background-color:  #EDC9DB;
+    box-shadow: 2px 2px 2px rgba(54, 18, 36, 0.3);
+}
+
+.clear-entry:active {
+    background-color: #E2A7C4;
+    box-shadow: 2px 2px 2px rgba(54, 18, 36, 0.3) inset;    
+}
+
+.entries {
+    width: 200px;
+    height: 360px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.results-screen {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 15px;
+    width: 180px;
+    text-align: right;
+    font-size: large;
+    border: 2px solid #349D69;
+    border-radius: 10px;
+    background-color: #C9EDDB;
+    color: #6AA184;
+}
+
